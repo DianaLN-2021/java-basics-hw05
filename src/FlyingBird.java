@@ -1,7 +1,11 @@
-public class FlyingBird {
-  // TODO fix class declaration
+abstract class FlyingBird extends Bird {
 
   public void checkWings() {
-    // TODO print a message that bird wings are checked
+    System.out.println("Wings have been checked");
+  }
+
+  @Override
+  public String toString() {
+    return "Flying Bird";
   }
 }
